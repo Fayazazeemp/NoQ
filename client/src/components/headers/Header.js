@@ -58,6 +58,8 @@ function Header() {
             </div>
 
             <ul style={styleMenu}>
+                <li><a href="http://localhost:7000/">{isAdmin ? 'Dashboard' : ''}</a></li>
+
                 <li><Link to="/">{isAdmin ? 'Products' : 'Shop'}</Link></li>
 
                 {isAdmin && adminRouter()}
