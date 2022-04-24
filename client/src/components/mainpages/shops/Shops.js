@@ -13,19 +13,19 @@ function Shops() {
         {
             title: 'ABC SHOP',
             description: 'lorem ipsum',
-            image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fstreet-shop&psig=AOvVaw3uj_USd6bbxq1_8iFTVKXi&ust=1650874141113000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMiMusefrPcCFQAAAAAdAAAAABAD'
+            image: 'https://retailinasia.com/wp-content/uploads/2016/11/FamilyMart-Japan-opening-Thailand-Retail-in-Asia.jpg'
         },
 
         {
             title: 'ABC SHOP',
             description: 'lorem ipsum',
-            image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fstreet-shop&psig=AOvVaw3uj_USd6bbxq1_8iFTVKXi&ust=1650874141113000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMiMusefrPcCFQAAAAAdAAAAABAD'
+            image: 'https://retailinasia.com/wp-content/uploads/2016/11/FamilyMart-Japan-opening-Thailand-Retail-in-Asia.jpg'
         },
 
         {
             title: 'ABC SHOP',
             description: 'lorem ipsum',
-            image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fstreet-shop&psig=AOvVaw3uj_USd6bbxq1_8iFTVKXi&ust=1650874141113000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMiMusefrPcCFQAAAAAdAAAAABAD'
+            image: 'https://retailinasia.com/wp-content/uploads/2016/11/FamilyMart-Japan-opening-Thailand-Retail-in-Asia.jpg'
         },
     ]
     const [loading, setLoading] = useState(false)
