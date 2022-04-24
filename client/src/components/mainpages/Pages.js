@@ -1,6 +1,7 @@
 import React, {useContext} from 'react'
 import {Switch, Route} from 'react-router-dom'
 import Products from './products/Products'
+import Shops from './shops/Shops'
 import DetailProduct from './detailProduct/DetailProduct'
 import Login from './auth/Login'
 import Register from './auth/Register'
@@ -38,8 +39,9 @@ function Pages() {
 
             <Route path="/cart" exact component={Cart} />
 
-            <Route path="/scan" exact component={isLogged && !isAdmin ? Scan : NotFound} />
-
+            <Route path="/scan" exact component={isLogged && !isAdmin ? Scan : Login} />
+            <Route path="/shops" exact component={isLogged && !isAdmin ? Shops : Login} />
+            
 
             <Route path="*" exact component={NotFound} />
         </Switch>
